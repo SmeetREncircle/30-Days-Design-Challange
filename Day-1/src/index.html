@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <main class="w-full h-full relative">
+    <!-- Background Image -->
+    <div class="w-full h-full">
+      <!-- Image for desktop -->
+      <img src="./images/Hero Section.png" alt="Hero Section -Web" class="hidden md:block w-full h-full object-cover object-right">
+      
+      <!-- Image for mobile (center part) -->
+      <img src="./images/mobile.jpg" alt="Hero Section -Mobile" class="block md:hidden w-full h-[300px] sm:h-[500px] object-cover object-center">
+    </div>
+
+    <!-- Text Container for desktop -->
+    <div class="hidden md:flex absolute inset-0 flex-col justify-center items-start pl-10 text-left z-10 bg-[#F3F8D3] md:bg-transparent md:pl-10">
+      <h4 class="font-normal text-sm leading-8 text-[#413432] mb-4">Risk-Free 100-Night Rest Test</h4>
+      <h1 class="font-medium text-4xl md:text-5xl lg:text-6xl text-[#413432] max-w-[90%] md:max-w-[393px] lg:max-w-[535px] xl:max-w-[670px] 3xl:max-w-screen-lg leading-[48px] md:leading-[52px] lg:leading-[66px]">
+        The Perfect Mattresses For Your Kids
+      </h1>
+      
+      <button class="mt-6 px-6 py-3 bg-[#62673E] text-white rounded-lg">Shop Now</button>
+    </div>
+
+    <!-- For mobile text below the image -->
+    <div class="md:hidden w-full bg-[#F3F8D3] p-6 text-center">
+      <h4 class="font-normal text-sm leading-8 text-[#413432] mb-4">Risk-Free 100-Night Rest Test</h4>
+      <h1 class="font-medium text-4xl leading-[48px] text-[#413432] max-w-full">The Perfect Mattresses For Your Kids</h1>
+      <button class="mt-6 px-6 py-3 bg-[#62673E] text-white rounded-lg">Shop Now</button>
+    </div> 
+  </main>
+</body>
+</html>
